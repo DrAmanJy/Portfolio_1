@@ -49,8 +49,37 @@ function App() {
         </section>
         <div className="h-screen" />
       </main>
-      <section className="h-screen bg-black z-10 relative rounded-t-4xl p-10">
-        <div className=" text-9xl text-center pt-30">coming soon</div>
+      <section className=" bg-black z-10 relative rounded-t-4xl p-7 text-[#6b645c]">
+        <div className="mb-[-100vh] h-screen ">
+          <div className="text-4xl md:text-[8vw] font-extrabold  my-10">
+            WHAT I KNOW/
+          </div>
+          <div className="sticky top-15 md:top-50  w-full">
+            <p className="max-w-xl text-md md:ml-[40vw] lg:ml-[50vw] 2xl:ml-[60vw] md:text-lg  2xl:text-2xl">
+              I specialize in building scalable full-stack web applications
+              using MongoDB, Express.js, React, and Node.js. Passionate about
+              clean architecture, performance optimization, and delivering
+              seamless user experiences across modern interfaces.
+            </p>
+          </div>
+        </div>
+        <div className=" h-screen"></div>
+        <div>
+          <div className=" text-4xl md:text-[8vw] font-extrabold  my-30 ">
+            SELECTED PROJECTS /
+          </div>
+          <div className=" flex">
+            <div className=" h-[300vh] hidden w-1/2 md:block relative ">
+              <h1 className="sticky top-0 text-[15vw] font-extrabold">01</h1>
+            </div>
+            <div className="w-screen md:w-1/2">
+              <div className="h-screen w-full  bg-blue-500"></div>
+              <div className="h-screen w-full  bg-green-400"></div>
+              <div className="h-screen w-full  bg-red-500"></div>
+            </div>
+          </div>
+        </div>
+        <div className=" h-screen"></div>
       </section>
     </>
   );
