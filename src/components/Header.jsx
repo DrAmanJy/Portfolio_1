@@ -1,17 +1,14 @@
 const Header = () => {
   return (
-    <header className="font-medium text-[#6b645c] text-lg absolute top-0 z-40 w-full">
-      <nav className=" mt-8 px-6 flex justify-between ">
+    <header className="absolute top-0 z-40 w-full text-lg text-[#6b645c] font-medium">
+      <nav className="mt-8 px-6 flex justify-between items-center">
         <div>MERN STACK DEVELOPER</div>
-        <ul className=" flex flex-col md:flex-row justify-evenly gap-3">
+        <ul className="flex flex-col md:flex-row gap-3">
           <li>
-            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <a href="#works">Works</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
