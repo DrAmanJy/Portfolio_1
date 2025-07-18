@@ -24,7 +24,7 @@ const Hero = () => {
                 efficient, scalable, and user-friendly web solutions with clean
                 code and solid architecture.
               </p>
-              <a href="#Contact">
+              <a href="#contact">
                 <button className="rounded-full bg-gray-700 px-6 py-2 text-white font-bold text-xl hover:bg-blue-600 transition">
                   CONTACT
                 </button>
