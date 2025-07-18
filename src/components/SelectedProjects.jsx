@@ -5,7 +5,7 @@ const projectData = [
     year: 2025,
     bg: "/project-bg-1.jpg",
     video:
-      "https://www.youtube.com/embed/p6gmoXM4y-s?autoplay=1&mute=1&controls=0&loop=1&playlist=p6gmoXM4y-s&disablekb=1&modestbranding=1&rel=0",
+      "https://www.youtube-nocookie.com/embed/p6gmoXM4y-s?autoplay=1&mute=1&controls=0&loop=1&playlist=p6gmoXM4y-s&disablekb=1&modestbranding=1&rel=0",
   },
   {
     title: "TaskStrom",
