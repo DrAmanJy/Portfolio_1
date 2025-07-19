@@ -55,7 +55,7 @@ const IKnow = () => {
         {skills.map(({ id, title, desc, tools, top }) => (
           <div key={id} className={`sticky ${top} border-t bg-black pt-10`}>
             <div className="flex flex-col md:grid md:grid-cols-12 items-center gap-x-4">
-              <span className="col-span-2 text-2xl text-blue-400 font-semibold">
+              <span className="col-span-2 text-2xl text-[#bcb7af] font-semibold">
                 ({id})
               </span>
               <h3 className="col-span-8 col-start-6 text-2xl md:text-4xl font-bold py-4">
